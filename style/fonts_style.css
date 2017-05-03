@@ -49,6 +49,7 @@
 	font-size: 13.3pt;
 	font-weight: 100;
 	line-height: 1.2em;
+	margin-top: 10px;
 }
 
 
@@ -159,9 +160,11 @@
 	float:left;
 	padding-right: 20px;
 	padding-left: 10px;
+	/*margin-bottom: -5px;*/
+	/*padding-bottom: 5px;*/
 }
 
-#font_events_text{
+.font_events_text{
 	font-family: 'Segoe UI Light';
 	font-size: 13.3pt;
 	font-weight: 100;
@@ -217,17 +220,28 @@
 }
 
 #font_event_button{
-font-family: 'Segoe UI Light';
+	font-family: 'Segoe UI Light';
 	font-size: 13pt;
 	font-weight: 300;
-		color: #005F6E;
-
+	color: #005F6E;
 }
 
 #font_event_participants{
 	font-family: 'DINPro-Regular';
 	font-size: 20pt;
 	font-weight: normal;
+	color: #008EA5;	
+}
+
+#font_show_more_block{
+	font-family: 'Segoe UI Light';
+	font-size: 16pt;
+	font-weight: 300;
 		color: #008EA5;
-	margin-top: 3px;
+}
+.font_group_participants{
+	font-family: 'DINPro-Regular';
+	font-size: 16pt;
+	font-weight: normal;
+	color: #008EA5;
 }

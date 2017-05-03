@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -33,7 +32,7 @@
     <!-- Menu -->
     <div class="row" >
         <div class="col-md-12">
-            <nav id="menu">
+            <nav id="menu" class="flex_justify_space_between">
                 <div id="font_menu">
                     <a href="#" class="menu_link">НОВОСТИ
                     </a>
@@ -47,7 +46,7 @@
                 </div>
                
                 <div id="font_menu_username">
-                    <a href="#" id="menu_fio_block">Фамилия Имя
+                    <a href="#" class="flex_row">Фамилия Имя
                     <div id="message_circle">
                     3
                     </div>
@@ -59,17 +58,17 @@
     <!-- Menu end -->
 
     <!-- Events container -->
-    <div class="events main_block_with_flexbox">
-        <div> 
+    <div class="main_block_with_flexbox">
+        <div>
             <div class="event_block">
-                <div id="event_header">
+                <div id="event_header" class=" flex_row">
                     <p id="font_event_header">Заголовок события
                     </p>
                     <p id="font_events_tag">#тег
                     </p>
                 </div>
                 <hr class="event_hr">
-                <div id="event_time_and_data">
+                <div class="flex_row flex_justify_space_between">
                     <div class="flexbox_aling_center">
                         <span id="font_event_time">17:30
                         </span>
@@ -78,18 +77,20 @@
                             <div class="font_event_data">место проведения</div>
                         </span>
                     </div>
-                    <div class="event_button_and_count">
-                        <div id="font_event_participants">
-                        127
+                    <div class="flex_row">
+                        <div class="flex_row event_participants_margin">
+                            <div id="font_event_participants">
+                            127
+                            </div>
+                            <img src="imgs/Events_Page_participants.png" class="event_participants_img">
                         </div>
-                        <img src="imgs/Events_Page_participants.png" class="event_participants_img">
                         <button class="event_button" id="font_event_button">
                             Не учавствовать
                         </button>
                     </div>
                 </div>
-                <p id="font_events_text">Краткое содержание события. Краткое содержание события. Краткое содержание события. Краткое содержание события. Краткое содержание события. Краткое содержание события. Краткое содержание события. Краткое содержание события...</p>
-                <div id="event_footer">
+                <p class="font_events_text">Краткое содержание события. Краткое содержание события. Краткое содержание события. Краткое содержание события. Краткое содержание события. Краткое содержание события. Краткое содержание события. Краткое содержание события...</p>
+                <div class="flex_justify_end">
                     <span id="font_event_author">Автор события 
                     </span>
                     <data class='font_event_author_time'>
@@ -99,11 +100,14 @@
                     16:24
                     </time>
                 </div>
-                <div class="event_block_images">
+                <div class="event_block_images flex_justify_space_between">
                     <img src="imgs/news_img.png" class="event_img" alt="img" >
                     <img src="imgs/news_img.png" class="event_img" alt="img" >
                     <img src="imgs/news_img.png" class="event_img" alt="img" >
                 </div>
+            </div>
+            <div class="show_more_block" id="font_show_more_block">
+                  <a href="1.html">Показать больше событий</a>
             </div>
         </div>
         <div class="tags">
@@ -141,18 +145,20 @@
       		</div>
     	</div>
 		<div class="row" id="footer">
- 	 		<div class="col-md-12" id='font_footer'>
-        		<hr>
-        		<div id="flexbox_footer_style">
-			        <p>
-			        Казанский федеральный университет 2017 ©
-			        </p>
-			        <p>
-			        ОБРАТНАЯ СВЯЗЬ      ТЕХНИЧЕСКАЯ ПОДДЕРЖКА       СОГЛАШЕНИЕ
-			        </p>
-		        </div>
- 	 		</div>
-		</div>
+            <div class="col-md-12" id='font_footer'>
+                <hr id="footer_hr">
+                <div class="flex_justify_space_between" id="footer_margin">
+                    <span>
+                    Казанский федеральный университет 2017 ©
+                    </span>
+                    <span>
+                    <a href="#" class="footer_link">ОБРАТНАЯ СВЯЗЬ</a>
+                    <a href="#" class="footer_link">ТЕХНИЧЕСКАЯ ПОДДЕРЖКА</a>
+                    <a href="#" class="footer_link">СОГЛАШЕНИЕ</a>
+                    </span>
+                </div>
+            </div>
+        </div>
       
 	</div>
   <!-- container end -->
