@@ -90,6 +90,10 @@ input[type=radio]{
 	height: 30px;
 }
 
+.full-width-textarea{
+	width: 100%;
+}
+
 .main_block_with_flexbox{
 	display: flex;
 	justify-content: space-between;
@@ -640,3 +644,21 @@ label.checkbox-label{
 	margin-bottom: 10px;
 }
 /* modal add user start */
+
+/*modal send notification statr*/
+
+.large-modal{
+	width: 820px;
+	margin-top: 60px;
+}
+
+.modal-input{
+	height: 30px;
+	width: 50%;
+}
+
+.modal-textarea{
+	height: 120px;
+	resize: none;
+}
+/*modal send notification end*/
